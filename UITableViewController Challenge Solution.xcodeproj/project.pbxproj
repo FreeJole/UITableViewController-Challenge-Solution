@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		9F7C394A19D1BD5000E976F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C394919D1BD5000E976F7 /* main.m */; };
 		9F7C394D19D1BD5000E976F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C394C19D1BD5000E976F7 /* AppDelegate.m */; };
-		9F7C395019D1BD5000E976F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C394F19D1BD5000E976F7 /* ViewController.m */; };
 		9F7C395319D1BD5000E976F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7C395119D1BD5000E976F7 /* Main.storyboard */; };
 		9F7C395519D1BD5000E976F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7C395419D1BD5000E976F7 /* Images.xcassets */; };
 		9F7C395819D1BD5000E976F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7C395619D1BD5000E976F7 /* LaunchScreen.xib */; };
 		9F7C396419D1BD5000E976F7 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C396319D1BD5000E976F7 /* UITableViewController_Challenge_SolutionTests.m */; };
+		9F7C396F19D1C02500E976F7 /* GGChallengeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C396E19D1C02500E976F7 /* GGChallengeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		9F7C394919D1BD5000E976F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F7C394B19D1BD5000E976F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F7C394C19D1BD5000E976F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F7C394E19D1BD5000E976F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F7C394F19D1BD5000E976F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F7C395219D1BD5000E976F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F7C395419D1BD5000E976F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9F7C395719D1BD5000E976F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9F7C395D19D1BD5000E976F7 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7C396219D1BD5000E976F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7C396319D1BD5000E976F7 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		9F7C396D19D1C02500E976F7 /* GGChallengeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGChallengeTableViewController.h; path = ../GGChallengeTableViewController.h; sourceTree = "<group>"; };
+		9F7C396E19D1C02500E976F7 /* GGChallengeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GGChallengeTableViewController.m; path = ../GGChallengeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				9F7C394B19D1BD5000E976F7 /* AppDelegate.h */,
 				9F7C394C19D1BD5000E976F7 /* AppDelegate.m */,
-				9F7C394E19D1BD5000E976F7 /* ViewController.h */,
-				9F7C394F19D1BD5000E976F7 /* ViewController.m */,
+				9F7C396D19D1C02500E976F7 /* GGChallengeTableViewController.h */,
+				9F7C396E19D1C02500E976F7 /* GGChallengeTableViewController.m */,
 				9F7C395119D1BD5000E976F7 /* Main.storyboard */,
 				9F7C395419D1BD5000E976F7 /* Images.xcassets */,
 				9F7C395619D1BD5000E976F7 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F7C395019D1BD5000E976F7 /* ViewController.m in Sources */,
+				9F7C396F19D1C02500E976F7 /* GGChallengeTableViewController.m in Sources */,
 				9F7C394D19D1BD5000E976F7 /* AppDelegate.m in Sources */,
 				9F7C394A19D1BD5000E976F7 /* main.m in Sources */,
 			);

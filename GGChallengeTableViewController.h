@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GGChallengeTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Garrett Gosch on 9/23/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GGChallengeTableViewController : UITableViewController
 
 @end
-
